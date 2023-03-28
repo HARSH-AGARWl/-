@@ -22,10 +22,11 @@ body {
     background-color: rgba(51,51,51, 0.5);
 }
 .btn {
-    position: absolute;
-    top: 10%;
+    position: relative;
+    top: -90px;
     right: 0;
-    transform: translateY(10%);
+
+    transform: translateY(-50%);
     transform: translateX(-5%);
     /* Other button styles here */
   }
@@ -35,18 +36,16 @@ body {
     transition: all 0.2s;
 
 }
-.btn--fadeBottom{
-    margin-top: 145px;
-    height: 7.4rem;
-    background-image:linear-gradient(180deg, transparent, rgba(37,37,37,0.61),#111);
-}
+
 
 .style{
     cursor: pointer;
     color: #fff;
     outline: none;
-    border: none;
+    border: white;
     font-weight: 700;
+    font-size:30px;
+
     border-radius: 0.2vw;
     padding-left: 2rem;
     padding-right: 2rem;
@@ -71,11 +70,7 @@ body {
     transition: all 0.2s;
 
 }
-.style--fadeBottom{
-    margin-top: 145px;
-    height: 7.4rem;
-    background-image:linear-gradient(180deg, transparent, rgba(37,37,37,0.61),#111);
-}
+
 .stlye::after:hover{
 
         transition-property: none;
