@@ -41,7 +41,7 @@ body {
     background-image:linear-gradient(180deg, transparent, rgba(37,37,37,0.61),#111);
 }
 
-.episode{
+.style{
     cursor: pointer;
     color: #fff;
     outline: none;
@@ -55,7 +55,7 @@ body {
     padding-bottom: 0.5rem;
     background-color: rgba(51,51,51, 0.5);
 }
-.episode {
+.stlye {
     position: absolute;
     width: 500px;
     text-align: left;
@@ -65,15 +65,22 @@ body {
     transform: translateX(-5%);
     /* Other button styles here */
   }
-.episode:hover{
+.style:hover{
     color:#000;
     background-color: #e6e6e6;
     transition: all 0.2s;
 
 }
-.episode--fadeBottom{
+.style--fadeBottom{
     margin-top: 145px;
     height: 7.4rem;
     background-image:linear-gradient(180deg, transparent, rgba(37,37,37,0.61),#111);
 }
+.stlye::after:hover{
 
+        transition-property: none;
+      }
+.stlye[open] > * {
+    transition: none;
+
+}
