@@ -23,7 +23,7 @@ body {
 }
 .btn {
     position: relative;
-    top: -90px;
+    top: -80px;
     right: 0;
 
     transform: translateY(-50%);
