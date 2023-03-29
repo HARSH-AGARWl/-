@@ -114,4 +114,15 @@ body {
 .nav__black{
     background-color: #111;
 }
-
+/*.container{
+    width: 100%;
+    min-height: 100vh;
+    padding: 5%;
+    background-image: linear-gradient();
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}*/
