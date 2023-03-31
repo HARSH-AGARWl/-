@@ -2,7 +2,7 @@ let suggestions = [
     "bar",
     "jab we met",
     "drishyam2",
-    "YouTube",
+    "chutiya",
     "YouTuber",
     "YouTube Channel",
     "Blogger",
