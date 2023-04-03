@@ -144,7 +144,7 @@ body {
 
 .wrapper .search-input{
   background: #fff;
-  width: 20%;
+  width: 300px;
   border-radius: 5px;
   position: fixed;
   top: 15%;
