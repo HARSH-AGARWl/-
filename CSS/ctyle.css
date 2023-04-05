@@ -134,14 +134,14 @@ body {
 .wrapper .search-input{
   background: #fff;
   
-  min-width: fit-content;
-  max-width: 300px;
+  min-width: 200px;
+  max-width: fit-content;
   
 
   border-radius: 5px;
   position: fixed;
 
-  top: 15%;
+  top: 12%;
   left: 78%;
   
   box-shadow: 0px 1px 5px 3px rgba(0,0,0,0.12);
