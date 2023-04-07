@@ -12,8 +12,11 @@ inputBox.onkeyup = (e)=>{
     let emptyArray = [];
     if(userData){
         icon.onclick = ()=>{
-            webLink = `${userData}.html`;    
+            webLink = `${userData}.html`;   
+            window.location.href = webLink;
+ 
             linkTag.setAttribute("href", webLink);
+            
             linkTag.click();
         }
         emptyArray = suggestions.filter((data)=>{

@@ -4,9 +4,12 @@ body {
   
   p {
     color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
   p:hover{
     color: #000;
+
 
   }
   

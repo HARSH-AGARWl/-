@@ -4,7 +4,7 @@ let suggestions = [
     "drishyam2",
     "chutiya",
     "YouTuber",
-    "YouTube Channel",
+    "rrr",
     "Blogger",
     "Bollywood",
     "Vlogger",
