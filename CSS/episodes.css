@@ -40,7 +40,7 @@ body {
 
     transform: translateY(-50%);
     transform: translateX(-5%);
-    /* Other button styles here */
+    
   }
 .btn:hover{
     color:#000;
