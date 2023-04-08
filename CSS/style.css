@@ -13,11 +13,10 @@
 .wrapper .search-input{
   background: #fff;
   
-  min-width: 200px;
-  max-width: fit-content;
-  flex: content;
-  
+  min-width: 100px;
 
+  flex-direction: column;
+  
   border-radius: 5px;
   position: fixed;
 
