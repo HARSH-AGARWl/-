@@ -5,16 +5,12 @@ body {
     display: flex;
   }
   
-  p {
+  pre {
     color: rgb(255, 255, 255);
     font-size: 18px;
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
-  p:hover{
-    color: #000;
-
-
-  }
+  
   
 
 .btn{
@@ -51,20 +47,20 @@ body {
 
 
 .style{
-    cursor: pointer;
-    color: #fff;
-    outline: none;
-    border: rgb(253, 247, 247);
-    font-weight: 700;
-    font-size:30px;
+  cursor: pointer;
+  color: #fff;
+  outline: none;
+  border: rgb(37, 36, 36,);
+  font-weight: 700;
+  font-size:30px;
 
-    border-radius: 0.2vw;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    margin-right: 1rem;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    background-color: rgba(51,51,51, 0.5);
+  border-radius: 0.2vw;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background-color: rgba(43, 41, 41, 0.8);
 }
 .stlye {
     position: absolute;
@@ -78,17 +74,22 @@ body {
     /* Other button styles here */
   }
 .style:hover{
-    color:#000;
-    background-color: #e6e6e6;
-    transition: all 0.2s;
+    color:#faf1f1;
+    text-decoration: underline 1px  rgb(190, 186, 186,0.7)  ;
+    background-color: rgba(43, 41, 41, 0.94);
+    
+    
     border-color: #000;
+
 
 }
 
-.stlye::after:hover{
+.style.summary.clicked:hover {
+  text-decoration: none;
+}
 
-        transition-property: none;
-      }
+
+
 .stlye[open] > * {
     transition: none;
 
