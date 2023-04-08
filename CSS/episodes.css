@@ -1,6 +1,9 @@
 body {
     background-color: #000000;
   }
+  .background{
+    display: flex;
+  }
   
   p {
     color: rgb(255, 255, 255);
