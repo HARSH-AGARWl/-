@@ -1,0 +1,35 @@
+<style>
+    .my-summary {
+      cursor: pointer;
+    }
+    
+    .my-summary:hover:not(.disable-hover) {
+      text-decoration: underline;
+    }
+    
+    .my-content {
+      padding-left: 20px;
+    }
+    
+    .disable-hover .my-summary:hover {
+      text-decoration: none;
+    }
+  </style>
+  
+  <details onclick="toggleDisableHover(this)">
+    <summary class="my-summary">Click me</summary>
+    <div class="my-content">
+      This is some content that will be hidden or shown when the user clicks on the summary element.
+    </div>
+  </details>
+  
+  <script>
+    function toggleDisableHover(details) {
+      const parent = details.parentElement;
+      parent.classList.toggle('disable-hover');
+      details.addEventListener('toggle', () => {
+        parent.classList.toggle('disable-hover', details.open);
+      });
+    }
+  </script>
+  

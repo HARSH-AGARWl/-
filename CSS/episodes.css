@@ -8,10 +8,26 @@ body {
   pre {
     color: rgb(255, 255, 255);
     font-size: 18px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    
   }
   
-  
+  .episode{
+    display: inline-block;
+    position: static;
+    top: 0%;
+    width: 200px;
+    height: auto;
+    padding: auto;
+    border: 2px;
+    background-color: rgba(43, 41, 41, 0.85);
+    border: black;
+    border-radius: 70px;
+    text-align: center;
+    align-items: center;
+  }
 
 .btn{
     cursor: pointer;
@@ -53,6 +69,9 @@ body {
   border: rgb(37, 36, 36,);
   font-weight: 700;
   font-size:30px;
+  position: relative;
+  top: 02%;
+  
 
   border-radius: 0.2vw;
   padding-left: 2rem;
@@ -60,10 +79,10 @@ body {
   margin-right: 1rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  background-color: rgba(43, 41, 41, 0.8);
+  background-color: rgba(43, 41, 41, 0.85);
 }
 .stlye {
-    position: absolute;
+    position: relative;
     border-color:  #e6e6e6;
     width: 500px;
     text-align: left;
@@ -73,27 +92,31 @@ body {
     transform: translateX(-5%);
     /* Other button styles here */
   }
-.style:hover{
-    color:#faf1f1;
-    text-decoration: underline 1px  rgb(190, 186, 186,0.7)  ;
-    background-color: rgba(43, 41, 41, 0.94);
-    
-    
-    border-color: #000;
-
-
+.stlye:hover{
+  background-color:rgba(43, 41, 41, 0.9) ;
+}
+.my-summary {
+  cursor: pointer;
 }
 
-.style.summary.clicked:hover {
+.my-summary:hover:not(.disable-hover) {
+  color:#faf1f1;
+  text-decoration: underline 3px  rgba(232, 230, 230, 0.55)  ;
+  
+  
+  
+  border-color: #000;
+}
+
+.my-content {
+  padding-left: 20px;
+}
+
+.disable-hover .my-summary:hover {
   text-decoration: none;
 }
 
 
-
-.stlye[open] > * {
-    transition: none;
-
-}
 body, html {
   height: 100%;
 }
