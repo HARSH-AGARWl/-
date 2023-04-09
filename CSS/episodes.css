@@ -3,12 +3,12 @@ body {
   }
   
   .background{
-    background-image: url('');
+   
     background-repeat: no-repeat;
     background-size: cover;
   }
   
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 100vw) {
     body {
       background-size: contain;
       background-position: center center;
