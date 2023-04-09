@@ -1,9 +1,23 @@
 body {
     background-color: #000000;
   }
-  .background{
-    display: flex;
+  
+.background {
+
+  /* Full height */
+  height: 100%;
+  width: auto;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex; 
+}
+@media screen and (max-width: 768px) {
+  body {
+    background-position: center top;
   }
+}
   
   pre {
     color: rgb(255, 255, 255);
@@ -125,17 +139,4 @@ body, html {
   box-sizing: border-box;
 }
 
-.bg-image {
-  /* The image used */
-  background-image: url("");
-
- 
-  /* Full height */
-  height: 100%;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
