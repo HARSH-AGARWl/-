@@ -2,23 +2,19 @@ body {
     background-color: #000000;
   }
   
-.background {
-
-  /* Full height */
-  height: 12.8%;
-  width: auto;
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex; 
-}
-@media screen and (max-width: 768px) {
-  body {
-    background-position: center top;
+  .background{
+    background-image: url('');
+    background-repeat: no-repeat;
+    background-size: cover;
   }
-}
   
+  @media screen and (max-width: 768px) {
+    body {
+      background-size: contain;
+      background-position: center center;
+    }
+  }
+    
   pre {
     color: rgb(255, 255, 255);
     font-size: 18px;
