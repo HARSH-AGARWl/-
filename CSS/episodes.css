@@ -2,7 +2,7 @@ body {
     background-color: #000000;
   }
   
-  .background{
+ /* .background{
    
     background-repeat: no-repeat;
     background-size: cover;
@@ -13,7 +13,7 @@ body {
       background-size: contain;
       background-position: center center;
     }
-  }
+  }*/
     
   pre {
     color: rgb(255, 255, 255);
