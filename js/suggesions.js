@@ -5,9 +5,9 @@ let suggestions = [
     "chutiya",
     "YouTuber",
     "RRR",
-    "death note",
-    "Bollywood",
-    "Vlogger",
+
+    "Death Note",
+    "Money Heist",
     "Vechiles",
     "Facebook",
     "Freelancer",
@@ -26,3 +26,4 @@ let suggestions = [
     "What does HTML stands for?",
     "What does CSS stands for?",
 ];
+    

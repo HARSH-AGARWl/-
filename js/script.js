@@ -12,7 +12,8 @@ inputBox.onkeyup = (e)=>{
     let emptyArray = [];
     if(userData){
         icon.onclick = ()=>{
-            webLink = `${userData}.html`;   
+            webLink = ` content_html/${userData}.html`;  
+            
             window.location.href = webLink;
  
             linkTag.setAttribute("href", webLink);
@@ -43,7 +44,7 @@ function select(element){
     let selectData = element.textContent;
     inputBox.value = selectData;
     icon.onclick = ()=>{
-        webLink = `${selectData}.html`;
+        webLink = `content_html/${selectData}.html`;
         linkTag.setAttribute("href", webLink);
         linkTag.click();
     }
@@ -60,3 +61,4 @@ function showSuggestions(list){
     }
     suggBox.innerHTML = listData;
 }
+
