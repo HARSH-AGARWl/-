@@ -1,0 +1,244 @@
+/* Set the height of the background to cover the entire viewport */
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  /* Add a gradient as the background */
+  .background::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, #5a47b1, #1c0c2b);
+    z-index: -1;
+  }
+  pre {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    
+  }
+
+  
+  /* Add some text content in the center of the viewport */
+  .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-family: Arial, sans-serif;
+    z-index: 1;
+  }
+  .bg-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .bg-item {
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background-color: #0f1c3f5d;
+    animation: moveBackground 10s linear infinite;
+  }
+  
+  @keyframes moveBackground {
+    0% {
+      transform: translate(0, 0);
+    }
+    25% {
+      transform: translate(-25%, -25%);
+    }
+    50% {
+      transform: translate(0, -50%);
+    }
+    75% {
+      transform: translate(25%, -25%);
+    }
+    100% {
+      transform: translate(0, 0);
+    }
+  }
+  .bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    z-index: -1;
+    animation: move-bg 20s linear infinite;
+  }
+  
+  @keyframes move-bg {
+    0% {
+      transform: translate(0, 0);
+    }
+    25% {
+      transform: translate(50%, 50%);
+    }
+    50% {
+      transform: translate(0, 100%);
+    }
+    75% {
+      transform: translate(-50%, 50%);
+    }
+    100% {
+      transform: translate(0, 0);
+    }
+  }
+  .bg-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .bg-element {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: rgba(151, 176, 251, 0.7);
+    background: linear-gradient(to bottom, #9630f5, #d0c0de);
+ 
+    border-radius: 50%;
+    opacity: 0.3;
+    animation: bg-animation 60s infinite;
+  }
+  
+  @keyframes bg-animation {
+    0% {
+      transform: translate(0, 0) rotate(0deg) scale(1);
+    }
+    50% {
+      transform: translate(calc(100vw * -0.3), calc(100vh * -0.3)) rotate(-180deg) scale(0.5);
+    }
+    100% {
+      transform: translate(calc(100vw * 0.6), calc(100vh * 0.6)) rotate(180deg) scale(2);
+    }
+  }
+  
+  .bg-element:nth-of-type(1) {
+    top: 20%;
+    left: 30%;
+    animation-duration: 45s;
+  }
+  
+  .bg-element:nth-of-type(2) {
+    top: 50%;
+    left: 60%;
+    animation-duration: 30s;
+  }
+  
+  .bg-element:nth-of-type(3) {
+    top: 80%;
+    left: 20%;
+    animation-duration: 50s;
+  }
+  
+  
+ /* .background{
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  @media screen and (max-width: 100vw) {
+    body {
+      background-size: contain;
+      background-position: center center;
+    }
+  }*/
+    
+  pre {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    
+  }
+  
+  .episode{
+    display: inline-block;
+    position: sticky;
+    top: 2vw;
+    left: 33%;
+    transform: translateX(top center);
+    width: 700px;
+    height: auto;
+    padding: auto;
+    border: 2px;
+    background-color: rgba(43, 41, 41, 0.2);
+    border: black;
+    border-radius:30px;
+    text-align: center;
+    align-items: center;
+  }
+
+.style{
+  cursor: pointer;
+  color: #fff;
+  outline: none;
+  border: rgb(37, 36, 36,);
+  font-weight: 700;
+  font-size: 30px;
+  position: relative;
+  top: 05%;
+  
+
+  border-radius: 0.2vw;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background-color: rgba(43, 41, 41, 0.2);
+}
+.stlye {
+    position: relative;
+    border-color:  #e6e6e6;
+    width: 500px;
+    text-align: left;
+    top: 70%;
+    right: 0;
+    transform: translateY(-70%);
+    transform: translateX(-5%);
+    /* Other button styles here */
+  }
+
+.summary{
+    text-align: center;
+    align-items: center;
+}
+
+body, html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+  

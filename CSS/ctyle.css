@@ -105,6 +105,25 @@ body {
 .nav__avatar {
     width: 30px;
     object-fit: contain;
+
+}
+.nav__apage {
+  object-fit: contain;
+  color: #e6e6e6;
+  position: absolute;
+  left: 90%;
+}
+.nav__ppage {
+  object-fit: contain;
+  color: #e6e6e6;
+  position: absolute;
+  left: 83%;
+}
+.nav__cpage {
+  object-fit: contain;
+  color: #e6e6e6;
+  position: absolute;
+  left: 76%;
 }
 .nav{
     position: fixed;
