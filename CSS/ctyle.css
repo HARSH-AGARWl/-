@@ -110,36 +110,22 @@ body {
 .nav__apage {
   object-fit: contain;
   color: #e6e6e6;
-  position: absolute;
+  position: fixed;
   left: 90%;
 }
 .nav__ppage {
   object-fit: contain;
   color: #e6e6e6;
-  position: absolute;
-  left: 83%;
+  position: fixed;
+  left: 82.3%;
 }
 .nav__cpage {
   object-fit: contain;
   color: #e6e6e6;
-  position: absolute;
+  position: fixed;
   left: 76%;
 }
-.nav{
-    position: fixed;
-    top: 0;
-    width: 100%;
-    
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    z-index: 1;
-    transition-timing-function: ease-in;
-    transition: all 0.5s;
-}
-.nav__black{
-    background-color: #111;
-}
+
 /*@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
 ::selection{
@@ -225,4 +211,57 @@ body {
   color: #644bff;
   cursor: pointer;
 }*/
+/* Navigation bar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #6d6b6b;
+  color: #fff;
+  padding: 1vw;
+  position: relative;
+  top: 0%;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin-right: 1rem;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* About Us button */
+nav ul li:nth-child(4) {
+  margin-left: auto;
+}
+
+.nav ul img{
+  width: 30px;
+  object-fit: contain;
+}
+
+/* Media query for phones */
+@media only screen and (max-width: 768px) {
+  nav ul li:nth-child(3) {
+      display: none;
+  }
+
+  nav ul li:nth-child(4) {
+      margin-left: 1rem;
+  }
+}
 
