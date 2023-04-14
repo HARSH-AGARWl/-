@@ -12,7 +12,7 @@ let suggestions = [
     "M3GAN",
     "Pathaan",
     "Shazam Fury Of The Gods",
-    "Designer",
+    "haunted latin america",
     "Developer",
     "Web Designer",
     "Web Developer",

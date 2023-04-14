@@ -31,17 +31,14 @@ body {
   }
   .episode{
     display: inline-block;
-    position: static;
+    position: relative;
     top: 0%;
-    width: 200px;
+    width: auto;
     height: auto;
-    padding: auto;
+    padding: 5px;
     border: 2px;
-    background-color: rgba(43, 41, 41, 0.85);
-    border: black;
-    border-radius: 70px;
-    text-align: center;
-    align-items: center;
+    background-color: rgba(47, 46, 46, 0.9);
+    border-radius:40px ;
   }
 
 .btn{
