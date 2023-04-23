@@ -12,5 +12,16 @@ let suggestions = [
     "M3GAN",
     "Pathaan",
     "Shazam Fury Of The Gods",
+    "fire of love",
+    "unbroken",
+    "The Matrix Resurrections",
+    "sallar",
+    "Murder Mystery 2",
+    "One Punch Man",
+    "Demon Slayer",
+    "Blue Beetle",
+    "John Wick ch 4",
+    
+
 ];
     
